@@ -156,7 +156,7 @@ a:focus {
 
 .navbar-toggle {
 	padding: 4px 6px;
-	font-size: 14px;
+	font-size: 28px;
 	color: #fff;
 }
 
@@ -312,7 +312,6 @@ hr {
 .intro {
 	width:100%;
 	position:relative;
-	background: url(../images/bg1.jpg) no-repeat top center;
     	background-size: cover;
     	height: auto;
 }
@@ -371,7 +370,7 @@ hr {
 	font-size: 30px;
 	font-family: Georgia, sans-serif;
 	font-style: italic;
-	color: aqua;
+	color: rgb(206, 227, 247);
 	line-height: 30px;
 }
 
@@ -522,7 +521,7 @@ footer p {
 	border-radius: 0;
 	text-transform: uppercase;
 	font-family: Montserrat,sans-serif;
-	font-weight: 400;
+	font-weight: 200;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
@@ -532,12 +531,14 @@ footer p {
 .btn-circle {
 	width: 70px;
 	height: 70px;
+	font-weight: 200;
 	margin-top: 15px;
+	margin-bottom: 8vh;
 	padding: 7px 16px;
 	border: 2px solid #fff;
 	border-radius: 50%;
 	font-size: 40px;
-	color: #fff;
+	color: #ffffffd3;
 	background: 0 0;
 	-webkit-transition: background .3s ease-in-out;
 	-moz-transition: background .3s ease-in-out;
