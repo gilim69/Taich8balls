@@ -3,6 +3,6 @@
 
 [www.taichi8balls.ru](http://www.taichi8balls.ru)
 
-Разработан с ***Bootstrap-4***
+Разработан с применением ***Bootstrap***
 ```
 Bootstrap, Javascript, html, css
