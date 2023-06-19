@@ -14,7 +14,7 @@ body {
 	height: 100%;
 	font-family: 'Shantell Sans','Comic Sans MS', sans-serif;
 	font-weight: 300;
-	color: rgb(219, 191, 33);
+	color: rgb(212, 169, 23);
 	background-color: none;
 }
 
@@ -67,6 +67,39 @@ a:focus {
 		rgba(162, 211, 208, 0.9) 80%,
 		rgba(162, 211, 208, 0) 100%);
 	border: none;
+}
+.back-btn {
+	font-family: China;
+	font-size: 1.8rem;
+	text-decoration: none;
+}
+
+.footer-link {
+	width: 121px;
+	display: inline-block;
+	text-align: center;
+}
+.footer-link:hover {
+	color:gold;
+	font-weight: bold;
+}
+.video-gallery li {
+	padding-top: 1.5rem;
+	font-size: 1.2rem;
+}
+.google-map {
+	position: relative;
+	display: block;
+	height: fit-content;
+	min-height: 36vh;
+}
+.my-list li a {
+	text-decoration: none;
+	color: rgb(9, 9, 9);
+	list-style-type: none;
+}
+.my-list a:hover {
+	font-weight: bold;
 }
 
 .navbar {
@@ -187,7 +220,7 @@ a:focus {
 
 
 #loaderInner {
-	background:#ffffff url(../images/spinner.gif) center center no-repeat;
+	background:#ffffff url(../icons/spinner.gif) center center no-repeat;
 	height: 60px;
 	left: 50%;
 	margin: -50px 0 0 -50px;
@@ -617,10 +650,6 @@ footer p, a {
 #text {
 	color: #fff;
 	background: #ffcc00;
-}
-
-#map {
-	height: 500px;
 }
 
 /* Media queries */
